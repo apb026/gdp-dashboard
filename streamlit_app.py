@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
+from google import genai
 from io import BytesIO
 from docx import Document
 import requests
